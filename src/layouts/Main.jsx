@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
@@ -7,11 +8,13 @@ import Col from 'react-bootstrap/Col';
 import LeftNave from '../Shared/LeftSide/LeftNave';
 import RightNave from '../Shared/RightNave/RightNave';
 import { Outlet } from 'react-router-dom';
+import NavigationVar from '../Shared/Navigationver/NavigationVar';
 
 const Main = () => {
     return (
         <div>
         <Header />
+        <NavigationVar/>
  <Container>
       <Row>
         <Col sm ={3}><LeftNave /></Col>
